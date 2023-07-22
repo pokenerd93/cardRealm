@@ -1,0 +1,434 @@
+{
+    "data": [
+        {
+            "id": "base2-1-eng",
+            "name": "Clefable",
+            "supertype": "Pokémon",
+            "subtypes": "Stage 1",
+            "level": "34",
+            "hp": "70",
+            "types": [
+                {
+                    "type": "Colorless",
+                    "file": "/Images/Colorless.png"
+                }
+            ],
+            "evolvesFrom": "Clefairy",
+            "attacks": [
+                {
+                    "name": "Metronome",
+                    "cost": [
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 1,
+                    "damage": "",
+                    "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+                },
+                {
+                    "name": "Minimize",
+                    "cost": [
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "",
+                    "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Fighting",
+                    "value": "×2"
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "Psychic",
+                    "value": "-30"
+                }
+            ],
+            "retreatCost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "convertedRetreatCost": 2,
+            "number": "1/64",
+            "artist": "Mitsuhiro Arita",
+            "rarity": "Rare Holo",
+            "flavorText": "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": "",
+                "Prerelease": ""
+            }
+        },
+        {
+            "id": "base2-2-eng",
+            "name": "Electrode",
+            "supertype": "Pokémon",
+            "subtypes": "Stage 1",
+            "level": "42",
+            "hp": "90",
+            "types": [
+                {
+                    "type": "Lightning",
+                    "file": "/Images/Lightning.png"
+                }
+            ],
+            "evolvesFrom": "Voltorb",
+            "attacks": [
+                {
+                    "name": "Tackle",
+                    "cost": [
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "20",
+                    "text": ""
+                },
+                {
+                    "name": "Chain Lightning",
+                    "cost": [
+                        "Lightning",
+                        "Lightning",
+                        "Lightning"
+                    ],
+                    "convertedEnergyCost": 3,
+                    "damage": "20",
+                    "text": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Fighting",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "number": "2/64",
+            "artist": "Mitsuhiro Arita",
+            "rarity": "Rare Holo",
+            "flavorText": "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        },
+        {
+            "id": "base2-3-eng",
+            "name": "Flareon",
+            "supertype": "Pokémon",
+            "subtypes": "Stage 1",
+            "level": "28",
+            "hp": "70",
+            "types": [
+                {
+                    "type": "Fire",
+                    "file": "/Images/Fire.png"
+                }
+            ],
+            "evolvesFrom": "Eevee",
+            "attacks": [
+                {
+                    "name": "Quick Attack",
+                    "cost": [
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "10+",
+                    "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+                },
+                {
+                    "name": "Flamethrower",
+                    "cost": [
+                        "Fire",
+                        "Fire",
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 4,
+                    "damage": "60",
+                    "text": "Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Water",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "number": "3/64",
+            "artist": "Kagemaru Himeno",
+            "rarity": "Rare Holo",
+            "flavorText": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        },
+        {
+            "id": "base2-4-eng",
+            "name": "Jolteon",
+            "supertype": "Pokémon",
+            "subtypes": "Stage 1",
+            "level": "29",
+            "hp": "70",
+            "types": [
+                {
+                    "type": "Lightning",
+                    "file": "/Images/Lightning.png"
+                }
+            ],
+            "evolvesFrom": "Eevee",
+            "attacks": [
+                {
+                    "name": "Quick Attack",
+                    "cost": [
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "10+",
+                    "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+                },
+                {
+                    "name": "Pin Missile",
+                    "cost": [
+                        "Lightning",
+                        "Lightning",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 3,
+                    "damage": "20×",
+                    "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Fighting",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "number": "4/64",
+            "artist": "Kagemaru Himeno",
+            "rarity": "Rare Holo",
+            "flavorText": "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        },
+        {
+            "id": "base2-5-eng",
+            "name": "Kangaskhan",
+            "supertype": "Pokémon",
+            "subtypes": "Basic",
+            "level": "40",
+            "hp": "90",
+            "types": [
+                {
+                    "type": "Colorless",
+                    "file": "/Images/Colorless.png"
+                }
+            ],
+            "attacks": [
+                {
+                    "name": "Fetch",
+                    "cost": [
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 1,
+                    "damage": "",
+                    "text": "Draw a card."
+                },
+                {
+                    "name": "Comet Punch",
+                    "cost": [
+                        "Colorless",
+                        "Colorless",
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 4,
+                    "damage": "20×",
+                    "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Fighting",
+                    "value": "×2"
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "Psychic",
+                    "value": "-30"
+                }
+            ],
+            "retreatCost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "convertedRetreatCost": 3,
+            "number": "5/64",
+            "artist": "Mitsuhiro Arita",
+            "rarity": "Rare Holo",
+            "flavorText": "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        },
+        {
+            "id": "base2-6-eng",
+            "name": "Mr. Mime",
+            "supertype": "Pokémon",
+            "subtypes": "Basic",
+            "level": "28",
+            "hp": "40",
+            "types": [
+                {
+                    "type": "Psychic",
+                    "file": "/Images/Psychic.png"
+                }
+            ],
+            "evolvesFrom": "Mime Jr.",
+            "abilities": [
+                {
+                    "name": "Invisible Wall",
+                    "text": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed.",
+                    "type": "Pokémon Power"
+                }
+            ],
+            "attacks": [
+                {
+                    "name": "Meditate",
+                    "cost": [
+                        "Psychic",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "10+",
+                    "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "number": "6/64",
+            "artist": "Ken Sugimori",
+            "rarity": "Rare Holo",
+            "flavorText": "If interrupted while miming, it will slap around the enemy with its broad hands.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        },
+        {
+            "id": "base2-7-eng",
+            "name": "Nidoqueen",
+            "supertype": "Pokémon",
+            "subtypes": "Stage 2",
+            "level": "43",
+            "hp": "90",
+            "types": [
+                {
+                    "type": "Grass",
+                    "file": "/Images/Grass.png"
+                }
+            ],
+            "evolvesFrom": "Nidorina",
+            "attacks": [
+                {
+                    "name": "Boyfriends",
+                    "cost": [
+                        "Grass",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "20+",
+                    "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+                },
+                {
+                    "name": "Mega Punch",
+                    "cost": [
+                        "Grass",
+                        "Grass",
+                        "Colorless",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 4,
+                    "damage": "50",
+                    "text": ""
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "convertedRetreatCost": 3,
+            "number": "7/64",
+            "artist": "Ken Sugimori",
+            "rarity": "Rare Holo",
+            "flavorText": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+            "legalities": {
+                "unlimited": "Legal"
+            },
+            "images": {
+                "Unlimited": "",
+                "1st Edition": ""
+            }
+        }
+    ],
+    "page": 1,
+    "pageSize": 250,
+    "count": 64,
+    "totalCount": 64
+}
