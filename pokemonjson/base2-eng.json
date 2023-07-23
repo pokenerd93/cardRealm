@@ -1,5 +1,4 @@
-{
-    "data": [
+[
         {
             "id": "base2-1-eng",
             "name": "Clefable",
@@ -426,9 +425,4 @@
                 "1st Edition": ""
             }
         }
-    ],
-    "page": 1,
-    "pageSize": 250,
-    "count": 64,
-    "totalCount": 64
-}
+    ]
